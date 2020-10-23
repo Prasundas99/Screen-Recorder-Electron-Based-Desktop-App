@@ -1,0 +1,56 @@
+body{
+     padding: 0;
+     margin: 0;
+}
+
+body *{
+     box-sizing: border-box;
+}
+
+.container{
+     height: 100%;
+     padding: 0;
+     display: grid;
+     grid-template-rows: auto 1fr;
+}
+
+.windowtitle{
+     padding: 10px;
+     height: auto;
+     font-family: montserrat;
+}
+
+.windowcontrols{
+     float: right;
+     display: grid;
+     grid-template-columns: 1fr 1fr 1fr;
+     margin-right: 9px;
+     width: 100px; 
+     margin-top: -2rem;   
+}
+
+.windowcontrols button{
+     outline: 0;
+     border: 0;
+     padding: 6px;
+     background: none;
+
+}
+
+.titlebar-style{
+     background: #202327;
+     color: #FFF;
+     size: 10pt;
+}
+
+.windowcontrols-style{
+
+}
+
+.windowcontrols-style button{
+     color: #FFF;
+     font-weight: bold;
+}
+.windowcontrols-style :hover{
+     background: #48494c;
+}
