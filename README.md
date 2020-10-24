@@ -11,6 +11,10 @@ You can choose a specific screen/window to record, and the record file is saved 
 
 # Using
 
+> clone the repo
+
+> cd to project folder
+
 > npm install 
 
 
