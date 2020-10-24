@@ -11,12 +11,12 @@
     <!--The whole text editor will be under this container-->
     <div class="container titlebar-style">
         <!--shows the title of the text editor-->
-        <div class="titlebar">
+        <div class="titlebar draggable">
             <!--The title of the text editor-->
-            <div class="windowtitle">SNIPPETS</div>
+            <div class="windowtitle prevent-sellect draggable">SNIPPETS</div>
 
             <!--shows the window controls button which are close maximise minimise-->
-            <div class="windowcontrols windowcontrols-style">
+            <div class="windowcontrols prevent-sellect windowcontrols-style">
                 <button id="Minimise">-</button>
                 <button id="Maximise">[ ]</button>
                 <button id="Close">X</button>
@@ -32,7 +32,7 @@
     </div>
 
     <script >
-        require('./js/titlebarstuff.js');
+        require('./js/navbar.js');
     </script>
     
 </body>
