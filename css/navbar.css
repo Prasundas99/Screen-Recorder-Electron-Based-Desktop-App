@@ -26,7 +26,7 @@ body *{
      grid-template-columns: 1fr 1fr 1fr;
      margin-right: 9px;
      width: 100px; 
-     margin-top: -2rem;   
+      
 }
 
 .windowcontrols button{
@@ -64,4 +64,9 @@ body *{
 .draggable{
      -webkit-app-region:drag;
      
+}
+
+.titlebar{
+     display:grid;
+     grid-template-columns: 1fr auto;
 }
