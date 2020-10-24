@@ -8,5 +8,6 @@ You can choose a specific screen/window to record, and the record file is saved 
 # Using
 
 > npm install 
-.
+
+
 >npm start
