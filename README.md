@@ -7,5 +7,6 @@ You can choose a specific screen/window to record, and the record file is saved 
 
 # Using
 
-> npm install -g electron-screen-recorder
-> electron-screen-recorder
+> npm install 
+.
+>npm start
